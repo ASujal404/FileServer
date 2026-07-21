@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Local Storage & Uploads
+server/storage/*
+!server/storage/.gitkeep
+temp/
+**/temp/
+
+# Logs
+*.log
+**/logs/
+
+# Build & Dist
+dist/
+**/dist/
+build/
+**/build/
+
+# IDE / System
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
