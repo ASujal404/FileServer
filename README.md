@@ -33,7 +33,7 @@ Enterprise-level, cross-platform GUI File Server System built with **Electron**,
 | **Database** | PostgreSQL (with auto-migrating `schema.sql`) |
 | **Object Storage** | MinIO Object Storage |
 | **Authentication** | JWT, bcryptjs, Role Based Access Control |
-| **Realtime Communication** | Socket.IO (Realtime Updates, Notifications, File Status Sync) |
+| **Realtime Communication** | Socket.IO (Realtime Updates, File Status Sync) |
 | **File Upload** | Multer |
 | **Archive Bundler** | Archiver |
 
@@ -101,7 +101,7 @@ graph TD
         
         AuthModule["JWT Authentication Module<br/>• JWT<br/>• bcrypt<br/>• Role Based Authentication"]:::serverModule
         LockEngine["File Lock Engine<br/>• Concurrency Control"]:::serverModule
-        SocketHub["Socket.IO Realtime Hub<br/>• Realtime Updates<br/>• Notifications<br/>• File Status Synchronization"]:::serverModule
+        SocketHub["Socket.IO Realtime Hub<br/>• Realtime Updates<br/>• <br/>• File Status Synchronization"]:::serverModule
     end
 
     %% LAYER 3: PostgreSQL Database (Metadata)
@@ -166,3 +166,5 @@ Detailed technical documents are available in the `docs/` folder:
 - 🌐 [LAN Network Deployment Guide](file:///c:/FileServerProject/docs/DEPLOYMENT_GUIDE.md)
 - 🧪 [Verification & Testing Instructions](file:///c:/FileServerProject/docs/TESTING_INSTRUCTIONS.md)
 - 📁 [Folder Structure Reference](file:///c:/FileServerProject/docs/FOLDER_STRUCTURE.md)
+
+  
