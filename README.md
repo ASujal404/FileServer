@@ -101,7 +101,7 @@ graph TD
         
         AuthModule["JWT Authentication Module<br/>• JWT<br/>• bcrypt<br/>• Role Based Authentication"]:::serverModule
         LockEngine["File Lock Engine<br/>• Concurrency Control"]:::serverModule
-        SocketHub["Socket.IO Realtime Hub<br/>• Realtime Updates<br/>• <br/>• File Status Synchronization"]:::serverModule
+        SocketHub["Socket.IO Realtime Hub<br/>• Realtime Updates<br/><br/>• File Status Synchronization"]:::serverModule
     end
 
     %% LAYER 3: PostgreSQL Database (Metadata)
